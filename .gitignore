@@ -2,3 +2,18 @@
 /vendor/gridcraft-ref
 /dist
 /build
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / build junk
+*.bak
+*.tmp
+*.log
+*.orig
+*.swp
+*.swo
+.idea/
+.vscode/
