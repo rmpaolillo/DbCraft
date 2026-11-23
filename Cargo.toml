@@ -28,3 +28,8 @@ db-drivers = { path = "crates/db-drivers" }
 unwrap_used = "deny"
 expect_used = "deny"
 panic = "deny"
+
+# Slim + faster release binary. Remove/edit freely.
+[profile.release]
+strip = true
+lto = "thin"
